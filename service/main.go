@@ -27,7 +27,7 @@ const(
 	INDEX = "around"
 	TYPE = "post"
 	DISTANCE = "200km"
-	ES_URL = "http://35.232.90.185:9200"
+	ES_URL = "http://130.211.154.236:9200"
 )
 func main() {// Create a client
   client, err := elastic.NewClient(elastic.SetURL(ES_URL), elastic.SetSniff(false))
