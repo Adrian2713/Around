@@ -20,6 +20,8 @@ import (
 	"reflect"
   "github.com/pborman/uuid"
 
+  "cloud.google.com/go/bigtable"
+
 
 
 )
